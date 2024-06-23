@@ -32,8 +32,7 @@ import {
 import { RadioGroup, RadioGroupItem } from "~/components/ui/radio-group";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { useToast } from "./ui/use-toast";
-import { formSchema } from "~/schemas";
-import type { FormValues } from "~/schemas";
+import { formSchema, type FormValues } from "~/schemas";
 import { formFields } from "~/consts";
 
 export default function RipenForm() {
